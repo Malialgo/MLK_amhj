@@ -1,0 +1,54 @@
+/*
+Author: Amalia Hidalgo
+Date: 10/16/2022
+Course: CPRT 245
+Assignment: Superhero 1.1
+I used the font from fontsquirrel in sync with my class attribute and used them to effect my UL's throughout my site so that my LI's have a different look to them.
+*/
+
+@font-face {
+  font-family: MyFont;
+  src: url(fira-sans/FiraSans-Book.otf);
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(201, 201, 201);
+  color: black;
+  background-image: url("images/Grey_background.jpg");
+  background-size: 2000px 100px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 1em;
+  margin: 24px;
+}
+
+ul {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 4em;
+}
+
+#SuperheroEnhancementsUl {
+  line-height: 200%;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgb(70, 69, 68);
+  border-radius: 30px;
+  border-style: dotted;
+  width: 40em;
+  background-color: rgb(179, 177, 174);
+}
+
+.Ulists {
+  font-family: MyFont;
+}
